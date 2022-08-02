@@ -188,7 +188,7 @@ app.get("/", async function (request, response) {
   let a = JSON.parse(await redis.get(keys.all))
   response.send(
     `${a.cases} cases are reported of the COVID-19<br> ${a.deaths} have died from it <br>\n${a.recovered} have recovered from it. <br>
-    View the dashboard here : <a href="https://coronastatistics.live">coronastatistics.live</a>`
+    View the dashboard here : <a href="https://cg-covid-proj.web.app/">cg-covid-proj.web.app/</a>`
   );
 });
 var listener = app.listen(process.env.PORT || 5001, function () {
