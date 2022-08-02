@@ -1,0 +1,16 @@
+{
+    "redis": {
+      "host": "redis",
+      "password": "1234",
+      "port": "6379"
+    },
+    "keys": {
+      "all": "coronastatistics:all",
+      "countries": "coronastatistics:countries",
+      "timeline": "coronastatistics:timeline",
+      "timelineglobal": "coronastatistics:timelineglobal"
+    },
+    "port": 3000,
+    "interval": 600000,
+    "nyt_interval": 36e5
+  }
